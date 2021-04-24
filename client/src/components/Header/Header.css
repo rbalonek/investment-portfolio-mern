@@ -1,0 +1,7 @@
+.header-container {
+  height: 100px;
+  width: 100vw;
+  background-color: bisque;
+  position: absolute;
+  top: 0;
+}
