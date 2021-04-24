@@ -15,7 +15,7 @@ app.use(logger("dev"));
 ///Use Routes
 app.use("/api/", investmentsRoutes);
 app.use("/api/users", userRoutes);
-app.use("/api/auth", require("./routes/auth"));
+//app.use("/api/auth", require("./routes/auth"));
 
 db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
