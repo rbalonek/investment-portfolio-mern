@@ -6,4 +6,4 @@ mongoose
   .then(() => console.log("Successfully connected to MongoDB."))
   .catch((e) => console.error("Connection error", e.message));
 module.exports = mongoose.connection;
-//mongodb+srv://Bob:Bob@cluster0.rnhz4.mongodb.net/investmentAppDatabase?retryWrites=true&w=majority
+//mongodb+srv://Bob:Bob@cluster0.jnwhm.mongodb.net/databaseInvestmentApp?retryWrites=true&w=majority
